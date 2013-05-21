@@ -10,8 +10,8 @@ _On Mac/Linux:_
 * ln -s .vim/vimrc .vimrc
 
 _Pathogen's documentation suggests adding plugins like this:_
-* 'cd ~/.vim/bundle
-* 'git clone git:/github.com/tpope/vim-fugitive.git
+* cd ~/.vim/bundle
+* git clone git:/github.com/tpope/vim-fugitive.git
 
 _We will do following:_
 * cd ~/.vim
