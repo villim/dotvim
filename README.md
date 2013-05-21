@@ -21,7 +21,7 @@ _We will do following:_
 * git push
 
 _Now when need checkout, do the following:_
-* git clone https://github.com/villim/dotvim.git ~/.vim
+* git clone git@github.com:villim/dotvim.git ~/.vim
 * cd ~/.vim
 * git submodule init
 * git submodule update
