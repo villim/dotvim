@@ -33,3 +33,4 @@ __The Plugin I'm using:__
 * https://github.com/klen/python-mode
 * https://github.com/Lokaltog/powerline
 * https://github.com/fholgado/minibufexpl.vim
+* https://github.com/kien/ctrlp.vim
