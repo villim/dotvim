@@ -2,7 +2,7 @@
 " ($HOME/vimfiles/ftplugin/python.vim on Windows)
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source % 
-
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 " ------------Global settings for all files--------------------- 
 " but may be overridden in ftplugin
 "set showcmd        " Show (partial) command in status line.
