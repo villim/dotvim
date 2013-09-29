@@ -16,6 +16,7 @@ set showmatch       " Show matching brackets.
 set number      		" Show row number
 " set tabstop=4     " Set Tab as 4
 " set softtabstop=4 " Set Soft Tab as 4
+set tags+=tags;
 set autoindent      " Set auto indent
 syntax on 
 filetype plugin indent on
@@ -46,6 +47,9 @@ let g:miniBufExplorerMoreThanOne=1
 set rtp+=/Users/villim/.vim/bundle/powerline/powerline/bindings/vim
 " ------------powerline Configuration end--------------------- 
 
+" ------------tagbar Configuration start--------------------- 
+nmap <F8> :TagbarToggle<CR>
+" ------------tagbar Configuration end--------------------- 
 
 " ------------Optional Configuration end--------------------- 
 " These colors are examples of what is possible
