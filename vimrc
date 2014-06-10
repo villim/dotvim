@@ -16,6 +16,11 @@ set showmatch       " Show matching brackets.
 set number      		" Show row number
 " set tabstop=4     " Set Tab as 4
 " set softtabstop=4 " Set Soft Tab as 4
+
+set nobackup
+set nowritebackup
+set noswapfile
+
 set tags+=tags;
 set autoindent      " Set auto indent
 syntax on 
