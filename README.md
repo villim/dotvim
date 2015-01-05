@@ -6,8 +6,20 @@ The configuration for VIM
 ------------------------------------------------------
 __How to Install__
 
-_On Mac/Linux:_
+_Just checkout:_
+
+* git clone git@github.com:villim/dotvim.git ~/.vim
+* cd ~/.vim
+* git submodule init
+* git submodule update
+
+
+_Add vimrc linkfile , On Mac/Linux:_
+
+* cd ~
 * ln -s .vim/vimrc .vimrc
+
+__Add more Vim Plugins__
 
 _Pathogen's documentation suggests adding plugins like this:_
 * cd ~/.vim/bundle
@@ -20,11 +32,6 @@ _We will do following:_
 * git commit -m 'Added vim-fugitive
 * git push
 
-_Now when need checkout, do the following:_
-* git clone git@github.com:villim/dotvim.git ~/.vim
-* cd ~/.vim
-* git submodule init
-* git submodule update
 
 ------------------------------------------------------
 __The Plugin I'm using:__
