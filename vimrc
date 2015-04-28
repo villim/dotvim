@@ -78,3 +78,9 @@ highlight Todo          ctermfg=DarkBlue
 highlight WarningMsg    term=NONE           ctermfg=Black ctermbg=NONE   
 highlight ErrorMsg      term=NONE           ctermfg=DarkRed ctermbg=NONE 
 " ------------Optional Configuration end--------------------- 
+
+" ------------Color Scheme Configuration start--------------------- 
+syntax enable
+set t_Co=256
+set background=dark
+colorscheme primary
