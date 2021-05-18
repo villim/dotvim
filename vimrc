@@ -29,7 +29,7 @@ filetype plugin indent on
 
 
 " ------------Pathogen Configuration start--------------------- 
-execute pathogen#infect()
+" execute pathogen#infect()
 " execute pathogen#helptags()
 " ------------Pathogen Configuration end--------------------- 
 
@@ -85,3 +85,7 @@ set t_Co=256
 set background=dark
 colorscheme primary
 set hls
+
+" ------------format json start--------------------- 
+nmap <F4> :%!python -m json.tool
+" ------------format json  end--------------------- 
