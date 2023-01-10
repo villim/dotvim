@@ -29,7 +29,7 @@ filetype plugin indent on
 
 
 " ------------Pathogen Configuration start--------------------- 
-" execute pathogen#infect()
+execute pathogen#infect()
 " execute pathogen#helptags()
 " ------------Pathogen Configuration end--------------------- 
 
