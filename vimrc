@@ -49,11 +49,11 @@ let g:miniBufExplorerMoreThanOne=1
 
 
 " ------------powerline Configuration start--------------------- 
-set rtp+=/Users/villim/.vim/bundle/powerline/powerline/bindings/vim
+" set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 " ------------powerline Configuration end--------------------- 
 
 " ------------tagbar Configuration start--------------------- 
-nmap <F8> :TagbarToggle<CR>
+" nmap <F8> :TagbarToggle<CR>
 " ------------tagbar Configuration end--------------------- 
 
 " ------------Optional Configuration end--------------------- 
