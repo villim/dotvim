@@ -41,6 +41,7 @@ __The Plugin I'm using:__
 * https://github.com/Lokaltog/powerline
 * https://github.com/fholgado/minibufexpl.vim
 * https://github.com/kien/ctrlp.vim
+* https://github.com/vim-airline/vim-airline
 
 __Pathogen Readme__
 [pathogen.vim](https://github.com/tpope/vim-pathogen)
